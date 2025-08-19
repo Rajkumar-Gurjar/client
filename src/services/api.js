@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'https://server-drqw.onrender.com/api',
+    baseURL: 'https://server-wzqe.onrender.com/api',
     withCredentials: true,   // agar cookies ka use ho rha hai
 });
 

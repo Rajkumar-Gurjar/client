@@ -44,8 +44,8 @@ function Footer() {
           <div className="col-md-4 mb-4">
             <h5 className="fw-bold mb-3">Contact Us</h5>
             <p className="mb-1">📍 Vinay nagar, Gwalior, MP</p>
-            <p className="mb-1">📞 +91 8815682128</p>
-            <p>📧 hariomdhakad16122002@gmail.com</p>
+            <p className="mb-1">📞 +91 6565636323</p>
+            <p>📧 rk@gmail.com</p>
           </div>
         </div>
 
