@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import API from "../services/api";
 
 function Coursedetils() {
-  const {id} = useParams();
+  const { id } = useParams();
   // console.log(id);
   const navigate = useNavigate();
   const [course, setCourse] = useState(null);
