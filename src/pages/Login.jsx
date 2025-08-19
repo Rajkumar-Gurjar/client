@@ -13,7 +13,7 @@ function Login() {
     try {
       const res = await API.post("/login", { email, password});
       
-      if(res.data.message === "Login successful"){
+      if(res.data.message === "Login sucessful"){
         
         // user data to local storage me store karein
         localStorage.setItem("user", JSON.stringify(res.data));
