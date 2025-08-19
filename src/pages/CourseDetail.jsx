@@ -44,9 +44,10 @@ function Coursedetils() {
         `/booking/create/${id}`,
         {},
         {
-          headers: {
-            Authorization: `Bearer ${user.token}`,
-          },
+          // headers: {
+          //   Authorization: `Bearer ${user.token}`,
+          // },
+          withCredentials: true
         }
       );
 
